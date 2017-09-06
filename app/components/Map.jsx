@@ -19,14 +19,14 @@ var Map = React.createClass({
     })
     var onMarkerClick = this.props.onMarkerClick
     
-        var markers = stores.map(function (store) {
-          return Object.assign({}, store, {
-            details: {
-              id: store.id
-            },
-            click: onMarkerClick
-          })
+      var markers = stores.map(function (store) {
+        return Object.assign({}, store, {
+          details: {
+          id: store.id
+          },
+          click: onMarkerClick
         })
+      })
     
         map.addMarkers(markers)
   },
