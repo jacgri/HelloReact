@@ -43,4 +43,14 @@ html, body, #app, .store-locator, .store-locator > .map, #map {
   width: 1.5rem;
 }
 
+.location-column > .favourites > .favourite {
+  padding: 1.5rem;
+  position: relative;
+}
+
+.location-column > .favourites > .favourite > .fa-star, .location-column > .currentlocation > .fa-star, .location-column > .favourites > .favourite > .fa-star-o, .location-column > .currentlocation > .fa-star-o  {
+  position: absolute;
+  right: 1.5rem;
+  cursor: pointer;
+}
 

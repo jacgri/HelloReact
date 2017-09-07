@@ -43,7 +43,7 @@ var StoreLocator = React.createClass({
           onToggleFavourite={this.handleToggleFavourite}
           isFavourited={this.isFavourited}/>
       <div className="title">
-        FavouriteStores
+        Favourite Stores
       </div>
       <Favourites isFavourited={this.isFavourited} onToggleFavourite={this.handleToggleFavourite} favouriteStores={this.state.favourites}/>
       </div>

@@ -22487,7 +22487,7 @@ var StoreLocator = React.createClass({
         React.createElement(
           'div',
           { className: 'title' },
-          'FavouriteStores'
+          'Favourite Stores'
         ),
         React.createElement(Favourites, { isFavourited: this.isFavourited, onToggleFavourite: this.handleToggleFavourite, favouriteStores: this.state.favourites })
       ),
